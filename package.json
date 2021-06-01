@@ -1,0 +1,32 @@
+{
+  "name": "M6-D2-Mongo-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoVezzati/M6-D2-Mongo-back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoVezzati/M6-D2-Mongo-back/issues"
+  },
+  "homepage": "https://github.com/LeonardoVezzati/M6-D2-Mongo-back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "http-errors": "^1.8.0",
+    "mongoose": "^5.12.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
